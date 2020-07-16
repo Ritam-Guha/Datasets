@@ -35,6 +35,8 @@ e.g. Suppose I want to get the data for BreastCancer. Then the steps are:
 
 The mat files contain data division in 70-30 format (70% training, 30% testing). Validation sets are not provided, I prefer using k-fold cross validation with training data only. So, validation sets are not required at all.
 
+### The dataset description (No. of classes, features, samples) are mentioned in **UCI_Dataset_Description.xlsx** file
+
 Till now, this sub-repo contains following pre-processed UCI datasets:
 1. Arrhythmia
 2. BreastCancer
