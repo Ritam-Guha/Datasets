@@ -3,7 +3,7 @@
 Any binary knapsack problem contains four very important characteristics:
 * Number of items
 * Weight of each item
-* Value of each iterm
+* Value of each item
 * Maximum allowable weight
 
 The ultimate goal is to get the maximum value subject to the constraint of maximum weight.
