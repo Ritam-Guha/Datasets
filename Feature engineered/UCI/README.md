@@ -11,7 +11,7 @@ Every csv file has -
 * set of features (all the columns except the last one)
 * class labels (last column of each dataset)
 
-**csv files are extremely useful and easy to format. Almost all the major programming languages have libraries to work with csv files**
+***csv files are extremely useful and easy to format. Almost all the major programming languages have libraries to work with csv files***
 
 The structure of the mat file is-
 * data
