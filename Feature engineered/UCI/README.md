@@ -1,6 +1,6 @@
 # This sub-repo contains a set of pre-processed UCI datasets
 
-## The unprocess datasets can be found in (UCI repository)[https://archive.ics.uci.edu/ml/index.php]
+## The unprocess datasets can be found in [UCI repository](https://archive.ics.uci.edu/ml/index.php)
 
 Every folder has two files-
 * A .csv file 
