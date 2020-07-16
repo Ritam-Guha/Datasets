@@ -20,7 +20,7 @@ The structure of the mat file is-
     * test
     * testLabel
     
-E.g. Suppose I want to get the data for BreastCancer. Then the steps are:
+e.g. Suppose I want to get the data for BreastCancer. Then the steps are:
 * dataset = 'BreastCancer'
 * data = importdata(strcat('Data/',dataset,'/',dataset,'_data.mat'));
 * x = data.train;
