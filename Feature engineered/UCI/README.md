@@ -21,12 +21,12 @@ The structure of the mat file is-
     * testLabel
     
 E.g. Suppose I want to get the data for BreastCancer. Then the steps are:
-dataset = 'BreastCancer'
-data = importdata(strcat('Data/',dataset,'/',dataset,'_data.mat'));
-x = data.train;
-t = data.trainLabel;
-x2 = data.test;
-t2 = data.testLabel;
+* dataset = 'BreastCancer'
+* data = importdata(strcat('Data/',dataset,'/',dataset,'_data.mat'));
+* x = data.train;
+* t = data.trainLabel;
+* x2 = data.test;
+* t2 = data.testLabel;
 
 
 ***Specifically for MATLAB, I felt the test-train division was a bit difficult. That's why instead of using CSV for MATLAB, I prefer processing the data and storing them in mat files***
