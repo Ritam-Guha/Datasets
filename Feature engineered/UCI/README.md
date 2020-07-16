@@ -29,7 +29,7 @@ e.g. Suppose I want to get the data for BreastCancer. Then the steps are:
 * t2 = data.testLabel;
 
 
-### _Specifically for MATLAB, I feel that the test-train division is a bit difficult. That's why instead of using csv for MATLAB, I prefer processing the data and storing them in mat files_
+### _Specifically for MATLAB, I feel that the test-train division is a bit difficult to perform. Instead of using csv for MATLAB, I prefer processing the data and storing them in mat files before use_
 
 The mat files contain data division in 70-30 format (70% training, 30% testing). Validation sets are not provided, I prefer using k-fold cross validation with training data only. So, validation sets are not required at all.
 
