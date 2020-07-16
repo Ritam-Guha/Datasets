@@ -1,4 +1,4 @@
-# This sub-repo contains a set of processed UCI datasets
+# This sub-repo contains a set of pre-processed UCI datasets
 
 Every folder has two files-
 * A .csv file 
