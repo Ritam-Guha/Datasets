@@ -15,7 +15,11 @@ Every csv file has -
 
 The structure of the mat file is-
 * data
-** train
-** trainLabel
-** test
-*** testLabel
+    * train
+    * trainLabel
+    * test
+    * testLabel
+
+***Specifically for MATLAB, I felt the test-train division was a bit difficult. That's why instead of using CSV for MATLAB, I prefer processing the data and storing them in mat files***
+
+The mat files contain data division in 70-30 format (70% training, 30% testing). Validation sets are not provided, I prefer using k-fold cross validation with training data only. So, validation sets are not required at all.
