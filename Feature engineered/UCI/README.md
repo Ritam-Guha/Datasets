@@ -29,35 +29,36 @@ e.g. Suppose I want to get the data for BreastCancer. Then the steps are:
 * t2 = data.testLabel;
 
 
-***Specifically for MATLAB, I feel that the test-train division is a bit difficult. That's why instead of using csv for MATLAB, I prefer processing the data and storing them in mat files***
+### _Specifically for MATLAB, I feel that the test-train division is a bit difficult. That's why instead of using csv for MATLAB, I prefer processing the data and storing them in mat files_
 
 The mat files contain data division in 70-30 format (70% training, 30% testing). Validation sets are not provided, I prefer using k-fold cross validation with training data only. So, validation sets are not required at all.
 
 Till now, this sub-repo contains following pre-processed UCI datasets:
-- Arrhythmia
-- BreastCancer
-- BreastEW
-- CongressEW
-- Exactly
-- Exactly2
-- Glass
-- HeartEW
-- Hill-valley
-- Horse
-- Ionosphere
-- KrVsKpEW
-- Lymphography
-- Madelon
-- M-of-n
-- Monk1
-- Monk2
-- Monk3
-- PenglungEW
-- Sonar
-- Soybean-small
-- SpectEW
-- Tic-tac-toe
-- Vote
-- WaveformEW
-- Wine
-- Zoo
+1. Arrhythmia
+2. BreastCancer
+3. BreastEW
+4. CongressEW
+5. Exactly
+6. Exactly2
+7. Glass
+8. HeartEW
+9. Hill-valley
+10. Horse
+11. Ionosphere
+12. KrVsKpEW
+13. Lymphography
+14. Madelon
+15. M-of-n
+16. Monk1
+17. Monk2
+18. Monk3
+19. PenglungEW
+20. Sonar
+21. Soybean-small
+22. SpectEW
+23. Tic-tac-toe
+24. Vote
+25. Vowel
+26. WaveformEW
+27. Wine
+28. Zoo
